@@ -17,7 +17,7 @@ import { RouterLink, RouterView } from 'vue-router'
   </div>
 </template>
 
-<style scoped>
+<style>
 #layout {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -37,5 +37,8 @@ nav {
 nav a {
   font-weight: bold;
   color: #2c3e50;
+}
+h2 {
+  font-size: 20px;
 }
 </style>
